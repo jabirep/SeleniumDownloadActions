@@ -33,7 +33,7 @@ public static void main(String[] args) throws InterruptedException {
 
         // Navigate to the file download page
         //here go to smartcampus admission, view the admitted student and download the pdf contained in the report
-        driver.get("https://smartcampustesting.kran.co.in/smartcampus/");
+        driver.get("TYPE URL HERE");
         
         driver.findElement(By.name("username")).sendKeys("annamma");
         driver.findElement(By.name("password")).sendKeys("passwd");
