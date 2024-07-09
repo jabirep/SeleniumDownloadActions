@@ -17,7 +17,7 @@ package LoveDale;
 	        WebDriver driver = new FirefoxDriver();
 
 	        // Navigate to the web page with the file input
-	        driver.get("https://smartcampustesting.kran.co.in/smartcampus/");
+	        driver.get("TYPE URL HERE");
 	        
 	        driver.findElement(By.name("username")).sendKeys("annamma");
 	        driver.findElement(By.name("password")).sendKeys("passwd");
